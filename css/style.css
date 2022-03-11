@@ -119,13 +119,15 @@ div .card > header{
     }
 
     .nav_links{
-        justify-content:space-between;
-        flex-direction: row;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-content: space-between;
     }
 
     .pricing{
-        align-items: flex-end;
+        flex-flow: row nowrap;
         margin: 0 auto;
+        align-items: flex-end;
     }
 
     .gallery img{
@@ -134,12 +136,10 @@ div .card > header{
 
     .card{
         border: 2px solid #45ADDD;
-        flex-basis: 325;
+        flex-basis: 325px;
     }
 
     div li:nth-of-type(2)::after{
         content: "👍";
     }
 }
-    /* make a thumbs up */
-/* } */
